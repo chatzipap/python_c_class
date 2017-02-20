@@ -26,7 +26,7 @@ def insertionSort( aList ) :
         while j > 0 and aList[j-1] < value :
             aList[j] = aList[j-1]
             j = j-1
-            aList[j] = value
+        aList[j] = value
 
 # Εισαγωγή στοιχείων, κλήση συνάρτησης ταξινόμησης
 aList = []
